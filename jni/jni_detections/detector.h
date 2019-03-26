@@ -179,7 +179,7 @@ class DLibHOGFaceDetector : public DLibHOGDetector {
   virtual inline int det(const cv::Mat& image) {
     if (image.empty())
       return 0;
-    LOG(INFO) << "com_tzutalin_dlib_PeopleDet go to det(mat)";
+    LOG(INFO) << "ch_unibas_bsc_dlib_PeopleDet go to det(mat)";
     if (image.channels() == 1) {
       cv::cvtColor(image, image, CV_GRAY2BGR);
     }

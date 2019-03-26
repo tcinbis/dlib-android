@@ -85,7 +85,7 @@ extern "C" {
 
 
 #define DLIB_FACE_JNI_METHOD(METHOD_NAME) \
-  Java_com_tzutalin_dlib_FaceDet_##METHOD_NAME
+  Java_ch_unibas_bsc_dlib_FaceDet_##METHOD_NAME
 
 void JNIEXPORT
     DLIB_FACE_JNI_METHOD(jniNativeClassInit)(JNIEnv* env, jclass _this) {}
